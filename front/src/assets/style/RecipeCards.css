@@ -1,0 +1,58 @@
+.label{
+    font-size:30px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#557C56;
+  
+  }
+  .select{
+    padding: 10px;
+    width:200px;
+    font-size:24px;
+  }
+  .selecting{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin: 30px;
+    padding-bottom:10px;
+  }
+  .recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius:10%;
+  }
+  
+  .recipe-card .card-body {
+    height: 200px;  
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .button-group {
+    display: flex;
+    gap: 40px;
+  }
+  .action-button {
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border:none;
+    background-color:#B2B377;
+    transition: background-color 0.4s ease, color 1s ease; /* Smooth transition for background and text color over 4ms */
+  
+  }
+  .action-button:hover{
+    cursor:pointer;
+    color:#A0937D;
+    background-color:#5b6885;
+  
+  }

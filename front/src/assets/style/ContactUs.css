@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fbf6f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .creation {
+    color: #756767;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .signup_button {
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: #b2b377;
+    transition: background-color 0.4s ease, color 1s ease;
+  }
+  
+  .signup_button:hover {
+    cursor: pointer;
+    color: #a0937d;
+    background-color: #e4e0e1;
+  }
+  img {
+    width: 80%; /* Take the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 500px; /* Restrict maximum height */
+    object-fit: cover; /* Crop the image to fit nicely */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+  }
+  

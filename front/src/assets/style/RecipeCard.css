@@ -1,0 +1,67 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius:10%;
+  }
+  
+  
+  .recipe-card .card-body {
+    height: 200px;  
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .card-title {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: ui-monospace;
+    font-style: italic;
+    color: #675d50;
+  }
+  
+  .card-text {
+    font-size: 30px;
+    font-family: ui-rounded;
+    color: #322c2b;
+  }
+  .button-group {
+    display: flex;
+    gap: 40px;
+  }
+  .action-button {
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border:none;
+    background-color:#B2B377;
+    transition: background-color 0.4s ease, color 1s ease; /* Smooth transition for background and text color over 4ms */
+  
+  }
+  .action-button:hover{
+    cursor:pointer;
+    color:#A0937D;
+    background-color:#5b6885;
+  
+  }
+  .details {
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .details h5 {
+    font-size: 14px;
+    margin: 70px;
+  }
+  .ingredients{
+    font-size:14px;
+  }

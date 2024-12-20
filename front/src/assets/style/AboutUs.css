@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.about-us-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FBF6F0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #435334;  /* Tomato red for emphasis */
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.website-name {
+    font-weight: bold;
+    color: #4C4B16;
+}
+
+.mission-section, .values-section, .testimonials-section, .history-section, .how-it-works-section {
+    margin-bottom: 30px;
+}
+
+.mission-section h2, .values-section h2, .testimonials-section h2, .history-section h2, .how-it-works-section h2 {
+    font-size: 1.8rem;
+    color: #898121;
+    margin-bottom: 15px;
+}
+
+.offerings-list, .values-list, .how-it-works-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offerings-list li, .values-list li, .how-it-works-list li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.values-list li strong {
+    color: #DBA979;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #666;
+    border-left: 4px solid #4CAF50;
+    padding-left: 15px;
+}
+
+.history-section p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.how-it-works-list li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.closing-text {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .about-us-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .about-us-title {
+        font-size: 2rem;
+    }
+
+    .intro-text, .mission-section h2, .values-section h2, .testimonials-section h2, .history-section h2, .how-it-works-section h2 {
+        font-size: 1rem;
+    }
+
+    .offerings-list li, .values-list li, .how-it-works-list li {
+        font-size: 1rem;
+    }
+}
+.how-it-works-container{
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FBF6F0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.testimonials-container{
+
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FBF6F0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
